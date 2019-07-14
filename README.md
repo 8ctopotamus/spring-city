@@ -1,3 +1,13 @@
+# SpringCityGarden Club
+This HTML template was modified for SCGC.
+
+## Develop
+Edit the SCSS files. To compile SCSS, this project is set up to use npm scripts.
+1. `npm install`
+2 `npm start` to serve
+3. `npm run watch-css` to compile SCSS
+
+### Startring template 
 Overflow by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)

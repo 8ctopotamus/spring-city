@@ -1,0 +1,27 @@
+{
+  "name": "springcitygardenclub",
+  "version": "1.0.0",
+  "description": "A site for SringCityGardenClub.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss assets/sass/main.scss   assets/css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8ctopotamus/spring-city.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/8ctopotamus/spring-city/issues"
+  },
+  "homepage": "https://github.com/8ctopotamus/spring-city#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.19.1"
+  }
+}
