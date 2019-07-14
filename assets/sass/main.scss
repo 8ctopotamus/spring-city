@@ -1071,6 +1071,12 @@
 		}
 	}
 
+	.text-right { text-align: right; }
+	.text-center { text-align: center; }
+	.text-left { text-align: left; }
+	.text-bold { font-weight: bold; }
+	.text-italic { font-style: italic; }
+
 /* Wide */
 
 	@include breakpoint('<=wide') {

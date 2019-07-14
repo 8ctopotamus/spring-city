@@ -1435,6 +1435,21 @@ button,
     .poptrox-popup:hover .closer:hover {
       opacity: 1.0; }
 
+.text-right {
+  text-align: right; }
+
+.text-center {
+  text-align: center; }
+
+.text-left {
+  text-align: left; }
+
+.text-bold {
+  font-weight: bold; }
+
+.text-italic {
+  font-style: italic; }
+
 /* Wide */
 @media screen and (max-width: 1680px) {
   /* Basic */

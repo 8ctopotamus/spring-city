@@ -102,4 +102,16 @@
 			usePopupNav: true
 		});
 
+		$('.infobox').poptrox({
+			useBodyOverflow: false,
+			usePopupEasyClose: false,
+			overlayColor: '#0a1919',
+			overlayOpacity: 0.75,
+			popupPadding: 25,
+			usePopupDefaultStyling: false,
+			usePopupCaption: false,
+			windowMargin: 10,
+			usePopupNav: false
+		});
+
 })(jQuery);

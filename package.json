@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/8ctopotamus/spring-city#readme",
   "devDependencies": {
+    "css-minify": "^1.0.1",
     "http-server": "^0.11.1",
     "node-sass": "^4.12.0",
     "nodemon": "^1.19.1"
