@@ -107,7 +107,7 @@
 
 	body {
 		background-color: #183026;
-		background-image: url('images/overlay.png'), url('../../images/bg.jpg');
+		background-image: url('images/overlay.png'), url('../../images/tumblr/bee-min.jpg');
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
 		background-position: top left, center 0;
@@ -1071,12 +1071,6 @@
 		}
 	}
 
-	.text-right { text-align: right; }
-	.text-center { text-align: center; }
-	.text-left { text-align: left; }
-	.text-bold { font-weight: bold; }
-	.text-italic { font-style: italic; }
-
 /* Wide */
 
 	@include breakpoint('<=wide') {
@@ -1122,7 +1116,7 @@
 
 			body {
 				background-color: #203936;
-				background-image: url('images/overlay.png'), url('../../images/bg-alt.jpg');
+				background-image: url('images/overlay.png'), url('../../images/tumblr/bee-min.jpg');
 				background-repeat: repeat, no-repeat;
 				background-size: auto, 100% auto;
 				background-position: top left, top center;
@@ -1434,4 +1428,22 @@
 				}
 			}
 
+	}
+
+
+	// Custom
+	.text-right { text-align: right; }
+	.text-center { text-align: center; }
+	.text-left { text-align: left; }
+	.text-bold { font-weight: bold; }
+	.text-italic { font-style: italic; }
+
+	#events {
+		ul {
+			list-style: none;
+			padding: 0;
+			li {
+				padding: 0;
+			}
+		}
 	}

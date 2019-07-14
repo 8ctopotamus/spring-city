@@ -69,7 +69,7 @@ html {
 
 body {
   background-color: #183026;
-  background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+  background-image: url("images/overlay.png"), url("../../images/tumblr/bee-min.jpg");
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
   background-position: top left, center 0;
@@ -1435,21 +1435,6 @@ button,
     .poptrox-popup:hover .closer:hover {
       opacity: 1.0; }
 
-.text-right {
-  text-align: right; }
-
-.text-center {
-  text-align: center; }
-
-.text-left {
-  text-align: left; }
-
-.text-bold {
-  font-weight: bold; }
-
-.text-italic {
-  font-style: italic; }
-
 /* Wide */
 @media screen and (max-width: 1680px) {
   /* Basic */
@@ -1474,7 +1459,7 @@ button,
   /* Basic */
   body {
     background-color: #203936;
-    background-image: url("images/overlay.png"), url("../../images/bg-alt.jpg");
+    background-image: url("images/overlay.png"), url("../../images/tumblr/bee-min.jpg");
     background-repeat: repeat, no-repeat;
     background-size: auto, 100% auto;
     background-position: top left, top center;
@@ -1645,3 +1630,24 @@ button,
       display: none; }
   .poptrox-popup .closer {
     opacity: 0.5; } }
+
+.text-right {
+  text-align: right; }
+
+.text-center {
+  text-align: center; }
+
+.text-left {
+  text-align: left; }
+
+.text-bold {
+  font-weight: bold; }
+
+.text-italic {
+  font-style: italic; }
+
+#events ul {
+  list-style: none;
+  padding: 0; }
+  #events ul li {
+    padding: 0; }

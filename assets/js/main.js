@@ -103,11 +103,13 @@
 		});
 
 		$('.infobox').poptrox({
+			// popupBackgroundColor: 'black',
+			// popupTextColor: 'white',
 			useBodyOverflow: false,
 			usePopupEasyClose: false,
 			overlayColor: '#0a1919',
 			overlayOpacity: 0.75,
-			popupPadding: 25,
+			popupPadding: '25px',
 			usePopupDefaultStyling: false,
 			usePopupCaption: false,
 			windowMargin: 10,
