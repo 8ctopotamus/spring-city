@@ -1675,12 +1675,19 @@ button,
 .sidenav a:hover {
   color: #f1f1f1; }
 
-.sidenav .closebtn {
+.sidenav #closebtn {
   position: absolute;
   top: 0;
   right: 25px;
   font-size: 36px;
   margin-left: 50px; }
+
+#openNavBtn {
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+  z-index: 100;
+  position: fixed; }
 
 #main {
   transition: margin-left .5s;

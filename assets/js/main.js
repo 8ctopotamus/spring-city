@@ -118,17 +118,22 @@
 
 
 		// Sidenav
-		const openNavBtn = document.getElementById('openNav')
-		const closeNavBtn = document.getElementById('closeNav')
+		const sidenav = document.getElementById("sidenav")
+		const main = document.getElementById("main")
+		const openNavBtn = document.getElementById('openNavBtn')
+		const closeNavBtn = document.getElementById('closeNavBtn')
+		const sidenavWidth = "250px"
 
 		function openNav() {
-			document.getElementById("sidenav").style.width = "250px";
-			document.getElementById("main").style.marginLeft = "250px";
+			sidenav.style.width = sidenavWidth;
+			main.style.marginLeft = sidenavWidth;
+			this.style.display = 'none'
 		}
 		
 		function closeNav() {
-			document.getElementById("sidenav").style.width = "0";
-			document.getElementById("main").style.marginLeft= "0";
+			sidenav.style.width = "0";
+			main.style.marginLeft= "0";
+			openNavBtn.style.display = 'block'
 		}
 		
 		openNavBtn.addEventListener('click', openNav)
