@@ -116,4 +116,22 @@
 			usePopupNav: false
 		});
 
+
+		// Sidenav
+		const openNavBtn = document.getElementById('openNav')
+		const closeNavBtn = document.getElementById('closeNav')
+
+		function openNav() {
+			document.getElementById("sidenav").style.width = "250px";
+			document.getElementById("main").style.marginLeft = "250px";
+		}
+		
+		function closeNav() {
+			document.getElementById("sidenav").style.width = "0";
+			document.getElementById("main").style.marginLeft= "0";
+		}
+		
+		openNavBtn.addEventListener('click', openNav)
+		closeNavBtn.addEventListener('click', closeNav)
+
 })(jQuery);
