@@ -1650,7 +1650,10 @@ button,
   list-style: none;
   padding: 0; }
   #events ul li {
-    padding: 0; }
+    padding: 0;
+    border: 1px solid lightgray; }
+    #events ul li h4 {
+      border-top: 1px solid lightgray; }
 
 .sidenav {
   height: 100%;
