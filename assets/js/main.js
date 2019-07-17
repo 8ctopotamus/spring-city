@@ -125,15 +125,15 @@
 		const sidenavWidth = "250px"
 
 		function openNav() {
-			sidenav.style.width = sidenavWidth;
-			main.style.marginLeft = sidenavWidth;
+			sidenav.style.width = sidenavWidth
+			main.style.marginLeft = sidenavWidth
 			this.style.display = 'none'
 		}
 		
 		function closeNav() {
-			sidenav.style.width = "0";
-			main.style.marginLeft= "0";
-			openNavBtn.style.display = 'block'
+			sidenav.style.width = "0"
+			main.style.marginLeft= "0"
+			setTimeout(() => openNavBtn.style.display = 'block', 750)
 		}
 		
 		openNavBtn.addEventListener('click', openNav)

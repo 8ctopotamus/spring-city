@@ -4,8 +4,12 @@ This HTML template was modified for SCGC.
 ## Develop
 Edit the SCSS files. To compile SCSS, this project is set up to use npm scripts.
 1. `npm install`
-2 `npm start` to serve
-3. `npm run watch-css` to compile SCSS
+
+2 `npm start` to serve.
+
+3. `npm run watch-css` to compile SCSS.
+
+4. Run `http-server` in a second terminal to serve.
 
 ### Startring template 
 Overflow by HTML5 UP
