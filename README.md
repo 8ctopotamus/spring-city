@@ -3,19 +3,16 @@ This HTML template was modified for SCGC.
 
 ## Develop
 Edit the SCSS files. To compile SCSS, this project is set up to use npm scripts.
+
 1. `npm install`
-
 2 `npm start` to serve.
-
 3. `npm run watch-css` to compile SCSS.
+4. Run `http-server` in a second terminal to serve (optional).
 
-4. Run `http-server` in a second terminal to serve.
-
-### Startring template 
+### Starter template 
 Overflow by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-
 
 This is Overflow, a single page responsive site template by me, AJ, for HTML5 UP.
 As you can tell it's a bit unusual (it was inspired by a flowchart I was working
