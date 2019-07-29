@@ -798,7 +798,9 @@
 			p {
 				border-top: solid 1px rgba(255, 255, 255, 0.5);
 				color: rgba(255, 255, 255, 0.75);
-				text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.1875);
+				// text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.1875);
+				text-shadow: 0 0 3px rgba(0, 0, 0, .75);
+				font-weight: bold;
 				font-size: 1em;
 				text-transform: uppercase;
 				letter-spacing: 3px;
